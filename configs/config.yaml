@@ -1,0 +1,18 @@
+dataset:
+  root_dir: dataset
+  image_size: [256, 192]
+
+dataloader:
+  batch_size: 8
+  num_workers: 4
+
+training:
+  epochs: 10
+  lr: 1e-4
+  device: auto
+
+paths:
+  save_dir: outputs/checkpoints
+
+model:
+  pretrained: True
