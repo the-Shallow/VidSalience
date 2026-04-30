@@ -126,7 +126,7 @@ def train():
         print(f"\nEpoch {epoch}/{epochs}")
 
         train_loss = train_one_epoch(model, train_loader, optimizer, criterion, device)
-        val_loss = train_one_epoch(model, val_loader, optimizer, criterion, device)
+        val_loss = validate_one_epoch(model, val_loader, criterion, device)
 
         print(f"Train Loss: {train_loss}")
         print(f"Val Loss: {val_loss}")

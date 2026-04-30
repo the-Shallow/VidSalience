@@ -12,7 +12,7 @@ class SALICONDataset(Dataset):
         self.split = split
         self.img_size = image_size
 
-        self.img_dir = self.root_dir / "images" / split
+        self.img_dir = self.root_dir / "images" / "images" / split
         self.map_dir = self.root_dir / "maps" / split if split in ["train", "val"] else None
 
         self.image_paths = sorted([
