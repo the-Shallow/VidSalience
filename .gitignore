@@ -100,3 +100,5 @@ build/
 dataset/fixations
 dataset/images
 dataset/maps
+
+.claude/
