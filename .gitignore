@@ -1,104 +1,48 @@
-# =========================
-# OS GENERATED FILES
-# =========================
+# OS files
 .DS_Store
 Thumbs.db
-desktop.ini
 
-.claude
+# IDE
+.vscode/
+.idea/
 
-# =========================
-# PYTHON
-# =========================
+.venv
+.claude/
+
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
 
-# Virtual environments
-.venv/
-venv/
-env/
-ENV/
+*.png
+*.ipynb
 
-# Python packaging
-build/
-dist/
-*.egg-info/
-.eggs/
+# Environment files
+.env
+.env.*
+!.env.example
 
 # Logs
 *.log
 
-# =========================
-# TESTING
-# =========================
-.pytest_cache/
-.coverage
-coverage.xml
-htmlcov/
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
 
-# =========================
-# JUPYTER
-# =========================
-.ipynb_checkpoints/
+# Archives
+*.zip
+*.tar
+*.gz
 
-# =========================
-# ENV VARIABLES
-# =========================
-.env
-.env.*
-*.env
+# Model files
+*.pth
+*.pt
 
-# =========================
-# MACHINE LEARNING / EXPERIMENTS
-# =========================
-# outputs/
-checkpoints/
-runs/
-wandb/
-mlruns/
-tensorboard/
-
-# Model weights
-# *.pt
-# *.pth
-# *.ckpt
-# *.bin
-# *.safetensors
-
-# =========================
-# FASTAPI / UVICORN
-# =========================
-*.sqlite3
-
-# =========================
-# NODE (if extension/frontend exists)
-# =========================
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Build output
-dist/
-build/
-
-# =========================
-# VSCODE
-# =========================
-.vscode/
-
-# =========================
-# IDE
-# =========================
-.idea/
-
-# =========================
-# MISC
-# =========================
-*.swp
-*.swo
-
-dataset/fixations
-dataset/images
-dataset/maps
+# Generated outputs
+outputs/
+uploads/
+temp/
+tmp/
